@@ -1,0 +1,118 @@
+#nav {
+    height: 6.5vw;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  #nav-l img {
+    height: 4.5vw;
+    width: 5.5vw;
+    margin-left: 2vw;
+    object-fit: cover;
+  }
+  
+  #nav-m {
+    height: 100%;
+    width: 34vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  #nav-r {
+    margin-right: 2vw;
+  }
+  
+  #nav-r #nav-but {
+    height: 3.5vw;
+    width: 13.9vw;
+    font-family: 'Apercu Regular', sans-serif;
+    font-size: 1.3vw;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid whitesmoke;
+  }
+  
+  #but-layer1 {
+    height: 3.5vw;
+    width: 13vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  #but-layer2 {
+    background-color: #1d1d1d;
+    position: absolute;
+    height: 3.5vw;
+    width: 13.9vw;
+    left: 0;
+    top: 3.6vw;
+    opacity: 0.11;
+    pointer-events: none;
+  }
+  
+  #nav-but #but-point {
+    height: 1.3vw;
+    width: 1.3vw;
+    border-radius: 50%;
+    background-color: #1d1d1d;
+    color: whitesmoke;
+    pointer-events: none;
+  }
+  
+  #arr {
+    opacity: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* MidElem styles */
+  .link-wrapper {
+    display: inline-block;
+  }
+  
+  .motion-wrapper {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .text-wrapper {
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+  }
+  
+  .character {
+    display: inline-block;
+  }
+  
+  .absolute-wrapper {
+    position: absolute;
+    inset: 0;
+  }
+  
+  .circle {
+    border-radius: 50%;
+    position: absolute;
+    top: -30%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .circle-bg {
+    background-color: whitesmoke;
+    
+  }
+#links{
+font-family: a;
+font-size: 1.2vw;
+color:whitesmoke;
+}  

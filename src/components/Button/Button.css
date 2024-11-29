@@ -1,0 +1,42 @@
+.buttonbox{
+    height:24vw;
+    width:30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.buttoni{
+    height:18vw;
+    width:18vw;
+    border-radius: 50%;
+    font-family: c;
+    font-size: 1.9vw;
+    background: green;
+    border:2px solid whitesmoke;
+    overflow: hidden;
+    position: relative;
+    z-index: 9;
+}
+.buttextt h1{
+    color:whitesmoke;
+    font-size: 1.9vw;
+    z-index: 9;
+}
+.buttoni:hover .buttextt h1 {
+    color: green;
+    font-size: 1.9vw;
+    z-index: 9;
+}
+
+
+.circless{
+    height:36vw;
+    width:30vw;
+    border-radius: 50%;
+    background-color:whitesmoke;
+    z-index:-1;
+    position: absolute;
+    top:-36vw;
+    left:-6vw
+}

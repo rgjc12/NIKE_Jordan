@@ -1,0 +1,125 @@
+#page2{
+    height:76vw;
+    width:100vw;
+    position: relative;   
+}
+#p2l1{
+    position: absolute;
+    height:28vw;
+    width:1000vw;
+    background-color: #B9E937;
+    border-radius:15px ;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    z-index: 2;
+}
+.marquee{
+    font-size:14vw;
+    color: #1d1d1d;
+    font-family: b;
+    margin-top: 0vw;
+    margin-bottom: 0;
+    border-top: 2px solid green;
+    border-bottom: 2px solid green;
+    text-transform: uppercase;
+}
+#p2l2{
+    position: absolute;
+    height:70vw;
+    z-index: 3;
+    width:100vw;
+    background-color: green;
+    margin-top:20vw;
+    border-radius: 15px 15px 0 0;
+}
+#p2top1{
+    height:10vw;
+    width: 90vw;
+    margin-left: 5vw;
+    border-bottom:2px solid #B9E937;
+    overflow: hidden;
+    position: relative;
+}
+#p2top
+{   height:10vw;
+    width: 90vw;
+    position: absolute;
+    font-family: b;
+    font-size: 9vw;
+    color:whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#p2mid{
+    height:36.2vw;
+    width:90vw;
+    margin-left: 5vw;
+    display: flex;
+    align-items: center;
+}
+#p2mid-l{
+    height:36vw;
+    width:45vw;
+    display: flex;
+   
+    flex-direction: column;
+}
+#pmidlt{
+    height:10vw;
+    width:100%;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    font-family:a;
+    font-size:6vw;
+    color:whitesmoke;
+    
+}
+#pmidlb{
+    height:25vw;
+    width:100%;
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+   }
+   #p2mid-r{
+    height:35vw;
+    width:50vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   #p2imgd{
+    height:25vw;
+    width:80%;
+    border-radius: 5px;
+    overflow: hidden;
+
+   }
+   #p2imgd img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+   }
+   #p2end{
+    height:12vw;
+    width:1000vw;
+    margin-top:9vw;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    border-top: 2px solid #B9E937;
+    border-bottom: 2px solid #B9E937;
+   }
+   .marquee1{
+    font-size: 10vw;
+    font-family: b;
+    color:#B9E937;
+    text-transform: uppercase;
+   }

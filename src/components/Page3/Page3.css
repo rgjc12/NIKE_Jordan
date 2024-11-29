@@ -1,0 +1,71 @@
+#page3{
+    height:57vw;
+    width:100vw;
+}
+#p3top{
+    height:5vw;
+    width:29;
+    margin-top: 5vw;
+    padding-left:2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow:hidden;
+    position:relative;
+}
+#p3heading{
+    height:5vw;
+    width:32vw;
+    font-family: a;
+    font-size:4.5vw;
+    font-weight: 800;
+    color:whitesmoke;
+    display: inline-flex;
+    position:absolute;
+}
+
+
+#p3mid{
+    margin-top: 6vw;
+}
+
+.category{
+    height:8vw;
+    width:100vw;
+    border-top: 0.5px solid whitesmoke;
+    border-bottom:0.5px solid whitesmoke; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.catani{
+    height:0vw;
+    width:100vw;
+    position: absolute;
+    z-index: -1;
+    background-color: whitesmoke;
+}
+.category-l{
+    height:8vw;
+    width:25vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color:whitesmoke;
+    font-size: 5.2vw;
+    font-family: b;
+    padding-left: 8vw;
+    font-weight: 300;
+
+}
+.category-r{
+    height:8vw;
+    width:26vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:whitesmoke;
+    font-size: 1.7vw;
+    font-family: c;
+}
